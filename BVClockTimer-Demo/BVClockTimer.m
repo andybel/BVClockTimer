@@ -91,7 +91,7 @@
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
 
-        self.backgroundColor = [UIColor purpleColor];
+        self.backgroundColor = [UIColor clearColor];
         
         self.lineWidth = 30.0f;
         self.circleColour = [UIColor whiteColor];
