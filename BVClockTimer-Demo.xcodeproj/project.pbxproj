@@ -22,6 +22,7 @@
 		23CBB4AE190FA74800D71D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBB48D190FA74800D71D5E /* UIKit.framework */; };
 		23CBB4B6190FA74800D71D5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23CBB4B4190FA74800D71D5E /* InfoPlist.strings */; };
 		23CBB4B8190FA74800D71D5E /* BVClockTimer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBB4B7190FA74800D71D5E /* BVClockTimer_DemoTests.m */; };
+		23CBB508190FA7A200D71D5E /* BVClockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBB507190FA7A200D71D5E /* BVClockTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		23CBB4B3190FA74800D71D5E /* BVClockTimer-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BVClockTimer-DemoTests-Info.plist"; sourceTree = "<group>"; };
 		23CBB4B5190FA74800D71D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23CBB4B7190FA74800D71D5E /* BVClockTimer_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVClockTimer_DemoTests.m; sourceTree = "<group>"; };
+		23CBB506190FA7A200D71D5E /* BVClockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVClockTimer.h; sourceTree = "<group>"; };
+		23CBB507190FA7A200D71D5E /* BVClockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVClockTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		23CBB48F190FA74800D71D5E /* BVClockTimer-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				23CBB505190FA76400D71D5E /* BVCClockTimer */,
 				23CBB498190FA74800D71D5E /* BVAppDelegate.h */,
 				23CBB499190FA74800D71D5E /* BVAppDelegate.m */,
 				23CBB49B190FA74800D71D5E /* Main_iPhone.storyboard */,
@@ -153,6 +157,15 @@
 				23CBB4B4190FA74800D71D5E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23CBB505190FA76400D71D5E /* BVCClockTimer */ = {
+			isa = PBXGroup;
+			children = (
+				23CBB506190FA7A200D71D5E /* BVClockTimer.h */,
+				23CBB507190FA7A200D71D5E /* BVClockTimer.m */,
+			);
+			name = BVCClockTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +270,7 @@
 				23CBB4A3190FA74800D71D5E /* BVViewController.m in Sources */,
 				23CBB49A190FA74800D71D5E /* BVAppDelegate.m in Sources */,
 				23CBB496190FA74800D71D5E /* main.m in Sources */,
+				23CBB508190FA7A200D71D5E /* BVClockTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
