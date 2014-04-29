@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23CBB48A190FA74800D71D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBB489190FA74800D71D5E /* Foundation.framework */; };
+		23CBB48C190FA74800D71D5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBB48B190FA74800D71D5E /* CoreGraphics.framework */; };
+		23CBB48E190FA74800D71D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBB48D190FA74800D71D5E /* UIKit.framework */; };
+		23CBB494190FA74800D71D5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23CBB492190FA74800D71D5E /* InfoPlist.strings */; };
+		23CBB496190FA74800D71D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBB495190FA74800D71D5E /* main.m */; };
+		23CBB49A190FA74800D71D5E /* BVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBB499190FA74800D71D5E /* BVAppDelegate.m */; };
+		23CBB49D190FA74800D71D5E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CBB49B190FA74800D71D5E /* Main_iPhone.storyboard */; };
+		23CBB4A0190FA74800D71D5E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CBB49E190FA74800D71D5E /* Main_iPad.storyboard */; };
+		23CBB4A3190FA74800D71D5E /* BVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBB4A2190FA74800D71D5E /* BVViewController.m */; };
+		23CBB4A5190FA74800D71D5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CBB4A4190FA74800D71D5E /* Images.xcassets */; };
+		23CBB4AC190FA74800D71D5E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBB4AB190FA74800D71D5E /* XCTest.framework */; };
+		23CBB4AD190FA74800D71D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBB489190FA74800D71D5E /* Foundation.framework */; };
+		23CBB4AE190FA74800D71D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBB48D190FA74800D71D5E /* UIKit.framework */; };
+		23CBB4B6190FA74800D71D5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23CBB4B4190FA74800D71D5E /* InfoPlist.strings */; };
+		23CBB4B8190FA74800D71D5E /* BVClockTimer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBB4B7190FA74800D71D5E /* BVClockTimer_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23CBB4AF190FA74800D71D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23CBB47E190FA74800D71D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23CBB485190FA74800D71D5E;
+			remoteInfo = "BVClockTimer-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23CBB486190FA74800D71D5E /* BVClockTimer-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BVClockTimer-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CBB489190FA74800D71D5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23CBB48B190FA74800D71D5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23CBB48D190FA74800D71D5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23CBB491190FA74800D71D5E /* BVClockTimer-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BVClockTimer-Demo-Info.plist"; sourceTree = "<group>"; };
+		23CBB493190FA74800D71D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23CBB495190FA74800D71D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23CBB497190FA74800D71D5E /* BVClockTimer-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BVClockTimer-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		23CBB498190FA74800D71D5E /* BVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVAppDelegate.h; sourceTree = "<group>"; };
+		23CBB499190FA74800D71D5E /* BVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVAppDelegate.m; sourceTree = "<group>"; };
+		23CBB49C190FA74800D71D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		23CBB49F190FA74800D71D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		23CBB4A1190FA74800D71D5E /* BVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVViewController.h; sourceTree = "<group>"; };
+		23CBB4A2190FA74800D71D5E /* BVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVViewController.m; sourceTree = "<group>"; };
+		23CBB4A4190FA74800D71D5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23CBB4AA190FA74800D71D5E /* BVClockTimer-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BVClockTimer-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CBB4AB190FA74800D71D5E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		23CBB4B3190FA74800D71D5E /* BVClockTimer-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BVClockTimer-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		23CBB4B5190FA74800D71D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23CBB4B7190FA74800D71D5E /* BVClockTimer_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVClockTimer_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23CBB483190FA74800D71D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CBB48C190FA74800D71D5E /* CoreGraphics.framework in Frameworks */,
+				23CBB48E190FA74800D71D5E /* UIKit.framework in Frameworks */,
+				23CBB48A190FA74800D71D5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CBB4A7190FA74800D71D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CBB4AC190FA74800D71D5E /* XCTest.framework in Frameworks */,
+				23CBB4AE190FA74800D71D5E /* UIKit.framework in Frameworks */,
+				23CBB4AD190FA74800D71D5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CBB47D190FA74800D71D5E = {
+			isa = PBXGroup;
+			children = (
+				23CBB48F190FA74800D71D5E /* BVClockTimer-Demo */,
+				23CBB4B1190FA74800D71D5E /* BVClockTimer-DemoTests */,
+				23CBB488190FA74800D71D5E /* Frameworks */,
+				23CBB487190FA74800D71D5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23CBB487190FA74800D71D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23CBB486190FA74800D71D5E /* BVClockTimer-Demo.app */,
+				23CBB4AA190FA74800D71D5E /* BVClockTimer-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23CBB488190FA74800D71D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23CBB489190FA74800D71D5E /* Foundation.framework */,
+				23CBB48B190FA74800D71D5E /* CoreGraphics.framework */,
+				23CBB48D190FA74800D71D5E /* UIKit.framework */,
+				23CBB4AB190FA74800D71D5E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23CBB48F190FA74800D71D5E /* BVClockTimer-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				23CBB498190FA74800D71D5E /* BVAppDelegate.h */,
+				23CBB499190FA74800D71D5E /* BVAppDelegate.m */,
+				23CBB49B190FA74800D71D5E /* Main_iPhone.storyboard */,
+				23CBB49E190FA74800D71D5E /* Main_iPad.storyboard */,
+				23CBB4A1190FA74800D71D5E /* BVViewController.h */,
+				23CBB4A2190FA74800D71D5E /* BVViewController.m */,
+				23CBB4A4190FA74800D71D5E /* Images.xcassets */,
+				23CBB490190FA74800D71D5E /* Supporting Files */,
+			);
+			path = "BVClockTimer-Demo";
+			sourceTree = "<group>";
+		};
+		23CBB490190FA74800D71D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23CBB491190FA74800D71D5E /* BVClockTimer-Demo-Info.plist */,
+				23CBB492190FA74800D71D5E /* InfoPlist.strings */,
+				23CBB495190FA74800D71D5E /* main.m */,
+				23CBB497190FA74800D71D5E /* BVClockTimer-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23CBB4B1190FA74800D71D5E /* BVClockTimer-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				23CBB4B7190FA74800D71D5E /* BVClockTimer_DemoTests.m */,
+				23CBB4B2190FA74800D71D5E /* Supporting Files */,
+			);
+			path = "BVClockTimer-DemoTests";
+			sourceTree = "<group>";
+		};
+		23CBB4B2190FA74800D71D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23CBB4B3190FA74800D71D5E /* BVClockTimer-DemoTests-Info.plist */,
+				23CBB4B4190FA74800D71D5E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23CBB485190FA74800D71D5E /* BVClockTimer-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CBB4BB190FA74800D71D5E /* Build configuration list for PBXNativeTarget "BVClockTimer-Demo" */;
+			buildPhases = (
+				23CBB482190FA74800D71D5E /* Sources */,
+				23CBB483190FA74800D71D5E /* Frameworks */,
+				23CBB484190FA74800D71D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BVClockTimer-Demo";
+			productName = "BVClockTimer-Demo";
+			productReference = 23CBB486190FA74800D71D5E /* BVClockTimer-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23CBB4A9190FA74800D71D5E /* BVClockTimer-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CBB4BE190FA74800D71D5E /* Build configuration list for PBXNativeTarget "BVClockTimer-DemoTests" */;
+			buildPhases = (
+				23CBB4A6190FA74800D71D5E /* Sources */,
+				23CBB4A7190FA74800D71D5E /* Frameworks */,
+				23CBB4A8190FA74800D71D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23CBB4B0190FA74800D71D5E /* PBXTargetDependency */,
+			);
+			name = "BVClockTimer-DemoTests";
+			productName = "BVClockTimer-DemoTests";
+			productReference = 23CBB4AA190FA74800D71D5E /* BVClockTimer-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23CBB47E190FA74800D71D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andy Bell";
+				TargetAttributes = {
+					23CBB4A9190FA74800D71D5E = {
+						TestTargetID = 23CBB485190FA74800D71D5E;
+					};
+				};
+			};
+			buildConfigurationList = 23CBB481190FA74800D71D5E /* Build configuration list for PBXProject "BVClockTimer-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23CBB47D190FA74800D71D5E;
+			productRefGroup = 23CBB487190FA74800D71D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23CBB485190FA74800D71D5E /* BVClockTimer-Demo */,
+				23CBB4A9190FA74800D71D5E /* BVClockTimer-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23CBB484190FA74800D71D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CBB4A0190FA74800D71D5E /* Main_iPad.storyboard in Resources */,
+				23CBB4A5190FA74800D71D5E /* Images.xcassets in Resources */,
+				23CBB49D190FA74800D71D5E /* Main_iPhone.storyboard in Resources */,
+				23CBB494190FA74800D71D5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CBB4A8190FA74800D71D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CBB4B6190FA74800D71D5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23CBB482190FA74800D71D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CBB4A3190FA74800D71D5E /* BVViewController.m in Sources */,
+				23CBB49A190FA74800D71D5E /* BVAppDelegate.m in Sources */,
+				23CBB496190FA74800D71D5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CBB4A6190FA74800D71D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CBB4B8190FA74800D71D5E /* BVClockTimer_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23CBB4B0190FA74800D71D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23CBB485190FA74800D71D5E /* BVClockTimer-Demo */;
+			targetProxy = 23CBB4AF190FA74800D71D5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23CBB492190FA74800D71D5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CBB493190FA74800D71D5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23CBB49B190FA74800D71D5E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CBB49C190FA74800D71D5E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		23CBB49E190FA74800D71D5E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CBB49F190FA74800D71D5E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		23CBB4B4190FA74800D71D5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CBB4B5190FA74800D71D5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23CBB4B9190FA74800D71D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23CBB4BA190FA74800D71D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23CBB4BC190FA74800D71D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BVClockTimer-Demo/BVClockTimer-Demo-Prefix.pch";
+				INFOPLIST_FILE = "BVClockTimer-Demo/BVClockTimer-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23CBB4BD190FA74800D71D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BVClockTimer-Demo/BVClockTimer-Demo-Prefix.pch";
+				INFOPLIST_FILE = "BVClockTimer-Demo/BVClockTimer-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		23CBB4BF190FA74800D71D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BVClockTimer-Demo.app/BVClockTimer-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BVClockTimer-Demo/BVClockTimer-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BVClockTimer-DemoTests/BVClockTimer-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		23CBB4C0190FA74800D71D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BVClockTimer-Demo.app/BVClockTimer-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BVClockTimer-Demo/BVClockTimer-Demo-Prefix.pch";
+				INFOPLIST_FILE = "BVClockTimer-DemoTests/BVClockTimer-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23CBB481190FA74800D71D5E /* Build configuration list for PBXProject "BVClockTimer-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CBB4B9190FA74800D71D5E /* Debug */,
+				23CBB4BA190FA74800D71D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CBB4BB190FA74800D71D5E /* Build configuration list for PBXNativeTarget "BVClockTimer-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CBB4BC190FA74800D71D5E /* Debug */,
+				23CBB4BD190FA74800D71D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23CBB4BE190FA74800D71D5E /* Build configuration list for PBXNativeTarget "BVClockTimer-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CBB4BF190FA74800D71D5E /* Debug */,
+				23CBB4C0190FA74800D71D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23CBB47E190FA74800D71D5E /* Project object */;
+}
