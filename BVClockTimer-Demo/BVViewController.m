@@ -24,6 +24,7 @@
 	
     self.view.backgroundColor = [UIColor grayColor];
     
+    
     UIButton *startBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 330, 100, 40)];
     [startBtn setBackgroundColor:[UIColor blackColor]];
     [startBtn setTitle:@"Go!" forState:UIControlStateNormal];
